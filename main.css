@@ -1,5 +1,5 @@
 body {
-     background-image: url("https://studio87blog.files.wordpress.com/2016/01/white-marble-2048.jpg"); 
+     background-image: url('../marble.jpg'); 
      background-repeat: repeat-y;
 }
 
@@ -27,7 +27,6 @@ li a {
     background: #d3d3d3;
     color: black;
     padding: 16px;
-    margin: 2px;
     font-size: 20px;
     border: none;
     cursor: pointer;
