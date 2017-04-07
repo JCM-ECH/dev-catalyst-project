@@ -28,11 +28,11 @@ li a {
     color: black;
     padding: 16px;
     font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
     border: none;
     cursor: pointer;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -57,15 +57,13 @@ li a {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #f1f1f1}
 
-/* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: black;
     color: white;
