@@ -159,9 +159,8 @@ p {
 #gallery {
 	width: 100%;
 	overflow: hidden;
-  padding: 68px 0;
-  margin: 0px auto;
-	background: white;
+        padding: 68px 0;
+        margin: 0px auto;
 }
 
 .photobanner {
