@@ -1,6 +1,6 @@
 body {
-     background-image: url('../marble.jpg'); 
-     background-repeat:repeat-y; }
+     background-image: url('../images/marble.jpg'); 
+     background-repeat: repeat-y;
 }
 
 h2 {
@@ -27,10 +27,10 @@ li a {
     background: #d3d3d3;
     color: black;
     padding: 16px;
+    margin: 2px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     border: none;
-    margin: 2px;
     cursor: pointer;
 }
 
@@ -39,7 +39,6 @@ li a {
     display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -60,7 +59,7 @@ li a {
 
 .dropdown-content a:hover {background-color: #f1f1f1}
 
-
+/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -113,7 +112,7 @@ p {
     font-size: 3vw;
     font-family: 'Montserrat', sans-serif;
     color: white;
-6}
+}
 .right {
     float: right;
     margin-top: 145%;
@@ -123,7 +122,8 @@ p {
     font-size: 16px;
 }
 .cell-text {
-    display: inline;    float: left;
+    display: inline;
+    float: left;
     margin-left: 4%;
 /*     float: right;
     margin-right: 14%; */
@@ -159,8 +159,8 @@ p {
 #gallery {
 	width: 100%;
 	overflow: hidden;
-        padding: 68px 0;
-        margin: 0px auto;
+  padding: 88px 0;
+  margin: 0px auto;
 }
 
 .photobanner {
