@@ -6,11 +6,6 @@ html {
   background-size: cover;
 }
 
-body {
-     background-image: url('../marble.jpg'); 
-     background-repeat: repeat-y;
-}
-
 h2 {
   font-family: 'Montserrat', sans-serif;
   background-color: black;
